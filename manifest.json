@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Modify CSS and HTML",
+  "version": "0.1.0",
+  "description": "Student Link Extension",
+  "browser_action": {
+  	"default_popup": "about.html",
+    "default_icon": "BU_logo.png",
+    "default_title": "Please click"
+    },
+  "content_scripts": [{
+  	//"html": ["home.html"],
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.bu.edu/link/bin/uiscgi_studentlink.pl/uismpl/?ModuleName=menu.pl&NewMenu=Home*"]
+  }]
+ 
+}

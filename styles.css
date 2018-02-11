@@ -1,0 +1,30 @@
+body {
+  background: url('https://www.telapost.com/wp-content/uploads/2018/01/1406674217000-tide-pod_3066689_ver1.0.jpg') !important;
+}
+td[bgcolor="#FFCC99"] {
+	background-color: #CCCCFF;
+} 
+td[width="235"]{
+	/*float: left;
+	background-color: #CCCCFF;*/
+}
+table:first-child{
+	/*display: none;*/
+}
+/*table {
+	background-color: rgb(255, 255, 255);
+} */
+/*#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}*/
